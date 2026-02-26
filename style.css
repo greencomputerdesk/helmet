@@ -1,5 +1,5 @@
 /* ===================================
-   Spencer Oakes — Site Styles
+   Helmet — Site Styles
    =================================== */
 
 /* --- Reset & Base --- */
@@ -16,7 +16,7 @@ body {
     font-size: 12px;
     line-height: 18px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: flex-start;
     min-height: 100vh;
     padding-top: 60px;
