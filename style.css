@@ -1,0 +1,150 @@
+/* ===================================
+   Spencer Oakes — Site Styles
+   =================================== */
+
+/* --- Reset & Base --- */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding-top: 60px;
+}
+
+/* --- Layout --- */
+.container {
+    text-align: left;
+    max-width: 440px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+}
+
+/* --- Navigation --- */
+nav {
+    margin-bottom: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: color 0.2s ease;
+}
+
+nav ul li a:hover {
+    color: #727f94;
+}
+
+nav ul li a.active {
+    color: #727f94;
+}
+
+/* --- Typography --- */
+h1 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+
+h2 {
+    color: #000000;
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+/* --- Links --- */
+a {
+    color: #727f94;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* --- Lists --- */
+ul.works-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.works-list li {
+    margin-bottom: 12px;
+    line-height: 15px;
+}
+
+/* --- Images --- */
+.page-image {
+    width: 100%;
+    max-width: 440px;
+    margin-bottom: 20px;
+}
+
+.page-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* --- Footer --- */
+.footer {
+    text-align: left;
+    color: #FF0000;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+/* --- Contact --- */
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+}
+
+/* --- Responsive --- */
+@media (max-width: 480px) {
+    body {
+        padding-top: 40px;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
