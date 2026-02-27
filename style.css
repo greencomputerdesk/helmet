@@ -145,11 +145,13 @@ ul.works-list li {
 /* --- Responsive --- */
 @media (max-width: 480px) {
     body {
-        padding-top: 40px;
+        padding-top: 80px;
     }
-   
+
     nav {
+        padding-top: 20px;
         padding-left: 20px;
+        padding-bottom: 10px;
     }
 
     nav ul {
