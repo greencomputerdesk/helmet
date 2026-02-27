@@ -121,6 +121,12 @@ ul.works-list li {
     display: block;
 }
 
+.logo img {
+    width: 80%;
+    height: auto;
+    display: block;
+}
+
 /* --- Footer --- */
 .footer {
     text-align: left;
