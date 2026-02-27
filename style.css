@@ -147,6 +147,10 @@ ul.works-list li {
     body {
         padding-top: 40px;
     }
+   
+    nav {
+        padding-left: 20px;
+    }
 
     nav ul {
         gap: 15px;
