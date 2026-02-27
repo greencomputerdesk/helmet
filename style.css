@@ -111,12 +111,12 @@ ul.works-list li {
 
 /* --- Images --- */
 .page-image {
-    width: 100%;
+    max-width: 100%;
     margin-bottom: 20px;
 }
 
 .page-image img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     display: block;
 }
