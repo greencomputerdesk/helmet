@@ -25,9 +25,9 @@ body {
 /* --- Layout --- */
 .container {
     text-align: left;
-    max-width: 440px;
-    padding-left: 25px;
-    padding-right: 25px;
+    max-width: 1000px;
+    padding-left: 50px;
+    padding-right: 50px;
     width: 100%;
 }
 
