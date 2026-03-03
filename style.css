@@ -20,6 +20,7 @@ body {
     align-items: flex-start;
     min-height: 100vh;
     padding-top: 100px;
+    cursor: url('images/helmcursor.png') 0 0, auto;
 }
 
 /* --- Layout --- */
