@@ -121,7 +121,7 @@ ul.works-list li {
     display: block;
 }
 
-.page-image img:hover {
+.invert-hover:hover {
     filter: invert(1);
     cursor: none;
 }
