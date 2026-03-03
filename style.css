@@ -121,6 +121,11 @@ ul.works-list li {
     display: block;
 }
 
+.page-image img:hover {
+    filter: invert(1);
+    cursor: pointer;
+}
+
 /* --- Footer --- */
 .footer {
     text-align: left;
