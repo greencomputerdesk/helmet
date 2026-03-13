@@ -16,7 +16,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
     align-items: flex-start;
     min-height: 100vh;
     padding-top: 100px;
@@ -24,8 +24,7 @@ body {
 
 /* --- Layout --- */
 .container {
-    text-align: justify;
-    text-align-last:left
+    text-align: left;
     max-width: 550px;
     padding-left: 50px;
     padding-right: 50px;
@@ -87,7 +86,7 @@ p {
     margin-bottom: 0px;
 }
 .medium {
-    font-weight: 500
+    font-weight: 500;
 }
 /* --- Links --- */
 a {
@@ -133,7 +132,7 @@ ul.works-list li {
     text-align: left;
     color: #FF0000;
     font-size: 14px;
-    font-weight: medium;
+    font-weight: bold;
     margin-top: 100px;
     margin-bottom: 60px;
 }
