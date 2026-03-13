@@ -127,22 +127,6 @@ ul.works-list li {
     cursor: none;
 }
 
-/* --- Two Column Layout --- */
-.two-col {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 40px;
-}
-
-.col-image {
-    flex-shrink: 0;
-}
-
-.col-text {
-    flex: 1;
-}
-
 /* --- Footer --- */
 .footer {
     text-align: left;
@@ -168,24 +152,16 @@ ul.works-list li {
     body {
         padding-top: 80px;
     }
-
     nav {
         padding-top: 20px;
         padding-left: 20px;
         padding-bottom: 10px;
     }
-
     nav ul {
         gap: 15px;
     }
-
     .container {
         padding-left: 20px;
         padding-right: 20px;
-    }
-
-    .two-col {
-        flex-direction: column;
-        gap: 20px;
     }
 }
