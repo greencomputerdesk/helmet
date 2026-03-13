@@ -11,6 +11,7 @@
 
 body {
     font-family: Helvetica Neue, sans-serif;
+    font-weight: 500;
     background-color: #F5F5F0;
     color: #000000;
     font-size: 12px;
@@ -126,6 +127,22 @@ ul.works-list li {
     cursor: none;
 }
 
+/* --- Two Column Layout --- */
+.two-col {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.col-image {
+    flex-shrink: 0;
+}
+
+.col-text {
+    flex: 1;
+}
+
 /* --- Footer --- */
 .footer {
     text-align: left;
@@ -165,5 +182,10 @@ ul.works-list li {
     .container {
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .two-col {
+        flex-direction: column;
+        gap: 20px;
     }
 }
